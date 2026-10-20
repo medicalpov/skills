@@ -1,0 +1,14 @@
+# Never commit decks or anything derived from them: they may contain PHI.
+*.pptx
+*.pptm
+*.ppt
+*.key
+*.phi-report.json
+*.plan.json
+*.scrub-report.md
+*_review/
+.*.partial
+
+__pycache__/
+*.pyc
+.DS_Store
